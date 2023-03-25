@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sollicitudin conubia imperdiet laoreet</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-dark" style="background-color:#3b3b3b;">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand">
+          <img style="width: 35%;" src="Images/Logo.png" alt="">
+        </a>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-secondary" type="submit">Search</button>
+        </form>
+        
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#3b3b3b;">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" href="index.html">Home |</a>
+                <a class="nav-link" href="Featured_Novels.html">Featured Novels |</a>
+                <a class="nav-link" href="Bookmarked.html">Bookmarked |</a>
+                <a class="nav-link" href="MyList.html" tabindex="-1"  aria-current="page" >My List</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        
+      </div>
+    </nav>
+  </header>
+
+  <div class="backdrop justify-content-center">
+    <div class="row">
+      <div class="book-stuff d-flex ">
+        <section class="text-light p-5 text-center text-sm-start" style="background-color: #525252;">
+          <div class="container-sm">
+            <div class="d-sm-flex">
+              <img  class="img-responsive me-5 rounded-start bookImg" style="height: 130; width: 231;" src="Images/Cover-1.png" alt="" />
+              <div> 
+                <h1 class="title"> </h1>
+                <h5>Genres</h5>
+                <p class="text" style="font-size:calc(8px + .4)"> 
+                </p>
+                
+              </div> 
+            </div>
+              <div class="chapterSelect">
+                <h3>Most Recent Chapters:</h3>
+                <a id="chapterOption" class="ld1 " href="chapter.html" onclick="selectNewChapter(0)"></a><br>
+                <a id="chapterOption" class="ld2" href="chapter.html" onclick="selectNewChapter(1)"></a><br>
+                <a id="chapterOption" class="ld3" href="chapter.html" onclick="selectNewChapter(2)"></a><br>
+                <a id="chapterOption" class="ld4" href="chapter.html" onclick="selectNewChapter(3)"></a><br>
+                <a id="chapterOption" class="ld5" href="chapter.html" onclick="selectNewChapter(4)"></a><br>
+                <a id="chapterOption" class="ld6" href="chapter.html" onclick="selectNewChapter(5)"></a><br>
+                <a id="chapterOption" class="ld7" href="chapter.html" onclick="selectNewChapter(6)"></a><br>
+                <a id="chapterOption" class="ld8" href="chapter.html" onclick="selectNewChapter(7)"></a><br>
+                <a id="chapterOption" class="ld9" href="chapter.html" onclick="selectNewChapter(8)"></a><br>
+                <a id="chapterOption" class="ld10 " href="chapter.html" onclick="selectNewChapter(9)"></a><br>
+              </div>
+              
+           
+
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+ <script src="./booksite.js"></script>
+  
+</body>
+</html>

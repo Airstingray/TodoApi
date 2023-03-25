@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sollicitudin conubia imperdiet laoreet</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <script src="booksite.js"></script>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-dark" style="background-color:#3b3b3b;">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand">
+          <img style="width: 35%;" src="Images/Logo.png" alt="">
+        </a>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-secondary" type="submit">Search</button>
+        </form>
+        
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#3b3b3b;">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="index.html">Home |</a>
+                <a class="nav-link" href="Featured_Novels.html">Featured Novels |</a>
+                <a class="nav-link" href="Bookmarked.html">Bookmarked |</a>
+                <a class="nav-link" href="MyList.html" tabindex="-1" aria-disabled="true">My List</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        
+      </div>
+    </nav>
+  </header>
+  
+
+  <div class="backdrop justify-content-center">
+    <div id="wrapper">
+
+      <div class="book-preview">
+          <div class="cover-box"><img class="cover-img" src="Images/Cover-1.png" alt=""></div>
+          <div class="desc">
+            <a class="book-title-link" href="book.html" onclick="selectNewNovel(0)"><h3>Tower Of The Void</h3></a>
+            <h5>Genres</h5>
+            <p>Growing up hearing stories of magicians and warriors, the main character's life suddenly changes when an invading force is amassed and launched into a wide scale attack by a feared dark lord; it casts doubt on their current situation.Unable to refuse, the main character, driven by in increasing hatred for a wrongdoer, that could turn the tides in their favour.</p>
+          </div>
+          <div class="interactions">
+            <a class="start-reading-button">READ</a>
+            <div>
+              <img onclick="bookmarkItem(0)" id="bookmark-icon" src="Images/bookmark.svg">
+            </div>
+          </div>
+      </div>
+
+      <div class="book-preview">
+          <div class="cover-box"><img class="cover-img" src="Images/Cover-2.png" alt=""></div>
+          <div class="desc">
+            <a class="book-title-link" href="book.html" onclick="selectNewNovel(1)"><h3>Songs Of The Dungeon</h3></a>
+            <h5>Genres</h5>
+            <p>A simple peasant with little knowledge of the world, the main character, after discovering a world of lies and betrayal, when they learn of the dark lord that steadily grows in power; it threatens their current situation.Desperate for normality, the main character, public enemy number one, attempts to rally others to join them in their cause.In the end, after managing to capture a key figure, the character turns down the opportunity to take a job solving similar problems in future.</p>
+          </div>
+          <div class="interactions">
+            <a class="start-reading-button">READ</a>
+            <div>
+              <img onclick="bookmarkItem(1)" id="bookmark-icon" src="Images/bookmark.svg">
+            </div>
+          </div>
+      </div>
+
+      <div class="book-preview">
+        <div class="cover-box"><img class="cover-img" src="Images/Cover-3.png" alt=""></div>
+        <div class="desc">
+          <a class="book-title-link" href="book.html" onclick="selectNewNovel(2)"><h3>Hurting The Demons</h3></a>
+          <h5>Genres</h5>
+          <p>Constantly plagued by nightmares from a young age, and in a race against time, the main character when the ruler, driven mad with power, begins to use their power and forces in a way; it threatens to destabilise their family.Determined to set things right, the main character, unsure of what it all means, gradually gets to the bottom of the issue.In the end, after standing up to a powerful figure, the main character now has the strength to deal with other problems in their life.</p>
+        </div>
+        <div class="interactions">
+          <a class="start-reading-button">READ</a>
+          <div>
+            <img onclick="bookmarkItem(2)" id="bookmark-icon" src="Images/bookmark.svg">
+          </div>
+        </div>
+      </div>
+
+      <div class="book-preview">
+        <div class="cover-box"><img class="cover-img" src="Images/Cover-4.png" alt=""></div>
+        <div class="desc">
+          <a class="book-title-link" href="book.html" onclick="selectNewNovel(3)"><h3>Prepare For The Ocean</h3></a>
+          <h5>Genres</h5>
+          <p>Having been warned of their future by a travelling stranger, the main character vows to do what it takes and accept their responsibilities when a long lost friend returns, asking them for help; it will eventually ruin someone's reputation.With their world gone crazy, the main character, taking advantage of the confusion, comes up with a cunning plan to find out the truth.In the end, after a close encounter with the enemy's forces, the main character's life returns to improved normality, though they retain a lust for adventure.</p>
+        </div>
+        <div class="interactions">
+          <a class="start-reading-button">READ</a>
+          <div>
+            <img onclick="bookmarkItem(3)" id="bookmark-icon" src="Images/bookmark.svg">
+          </div>
+        </div>
+      </div>
+
+      <div class="book-preview">
+        <div class="cover-box"><img class="cover-img" src="Images/Cover-5.png" alt=""></div>
+        <div class="desc">
+          <a class="book-title-link" href="book.html" onclick="selectNewNovel(4)"><h3>Guarded By Time</h3></a>
+          <h5>Genres</h5>
+          <p>Frequently the recipient of strange visions, the main character loses what's dearest to them when spies within the governing body initiate a coup; it casts doubt on their current situation.Determined to set things right, the main character, unsure of what it all means, manages to avoid a failed ambush which leaves them alone with their allies held captive.</p>
+        </div>
+        <div class="interactions">
+          <a class="start-reading-button">READ</a>
+          <div>
+            <img onclick="bookmarkItem(4)" id="bookmark-icon" src="Images/bookmark.svg">
+          </div>
+        </div>
+      </div>
+
+      <div class="book-preview">
+        <div class="cover-box"><img class="cover-img" src="Images/Cover-6.png" alt=""></div>
+        <div class="desc">
+          <a class="book-title-link" href="book.html" onclick="selectNewNovel(5)"><h3>Healing Dreams</h3></a>
+          <h5>Genres</h5>
+          <p>Bitter about life's cruel games, the main character is suddenly forced to leave their home and family when a mysterious character forces them into a situation well outside their control that results in the destruction of the city.Desperate for normality, the main character, after surviving a failed of assassination attempt, ends up putting their own personal needs before others.In the end, after having their relationships tested, the main character sacrifices themselves to stop someone else.</p>
+        </div>
+        <div class="interactions">
+          <a class="start-reading-button">READ</a>
+          <div>
+            <img onclick="bookmarkItem(5)" id="bookmark-icon" src="Images/bookmark.svg">
+          </div>
+          
+        </div>
+      </div>
+
+    </div>
+  </div>
+ 
+  
+
+
+</body>
+</html>
